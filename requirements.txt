@@ -1,0 +1,28 @@
+# Smart Screen OCR — Dependencies
+# Python 3.10.12
+# pip install -r requirements.txt
+
+# Image processing & OCR
+opencv-python==4.8.1.78
+Pillow==10.3.0
+pytesseract==0.3.10
+
+# NLP
+transformers==4.35.2
+torch==2.2.2        # install separately first:
+                    # pip install torch==2.2.2 --index-url https://download.pytorch.org/whl/cpu
+
+# Clipboard (optional — kept for future use)
+pyperclip==1.8.2
+
+# Drag-and-drop support (optional — browse still works without it)
+# pip install tkinterdnd2
+
+# ── No longer needed (removed) ───────────────────────────────────────────────
+# mss        — no screen capture needed
+# pynput     — no hotkeys needed
+# pyautogui  — no mouse tracking needed
+
+# NOTE: Install Tesseract binary:
+# https://github.com/UB-Mannheim/tesseract/wiki
+# Then verify TESSERACT_CMD path in config.py
