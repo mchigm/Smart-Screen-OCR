@@ -58,31 +58,31 @@ Under **5 seconds**. Zero manual typing. Works on dark terminals, code editors, 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║
-║   Win+Shift+S          ┌─────────────┐                              ║
-║   ─────────────►  PNG  │   Your App  │                              ║
-║   Snipping Tool        └──────┬──────┘                              ║
+║   Win+Shift+S          ┌─────────────┐                               ║
+║   ─────────────►  PNG  │   Your App  │                               ║
+║   Snipping Tool        └──────┬──────┘                               ║
 ║                               │                                      ║
-║                    ┌──────────▼──────────┐                          ║
-║                    │   OpenCV Engine     │  ← 5 preprocessing       ║
+║                    ┌──────────▼──────────┐                           ║
+║                    │   OpenCV Engine     │  ← 5 preprocessing        ║
 ║                    │   Pre-processing    │    strategies tried       ║
-║                    └──────────┬──────────┘                          ║
+║                    └──────────┬──────────┘                           ║
 ║                               │                                      ║
-║                    ┌──────────▼──────────┐                          ║
-║                    │   Tesseract OCR     │  ← PSM 3, 4, 6 tried     ║
+║                    ┌──────────▼──────────┐                           ║
+║                    │   Tesseract OCR     │  ← PSM 3, 4, 6 tried      ║
 ║                    │   Text Extraction   │    best result kept       ║
-║                    └──────────┬──────────┘                          ║
+║                    └──────────┬──────────┘                           ║
 ║                               │                                      ║
-║                    ┌──────────▼──────────┐                          ║
-║                    │   NLP Classifier    │  ← Zero-shot             ║
+║                    ┌──────────▼──────────┐                           ║
+║                    │   NLP Classifier    │  ← Zero-shot              ║
 ║                    │   HuggingFace       │    classification         ║
-║                    └──────────┬──────────┘                          ║
+║                    └──────────┬──────────┘                           ║
 ║                               │                                      ║
-║              ┌────────────────┼────────────────┐                    ║
-║              ▼                ▼                ▼                    ║
-║         code snippet        url            question                 ║
-║         ──────────          ─────          ────────                 ║
-║         saved to        browser opens    Google search             ║
-║         outputs/          instantly        URL opened              ║
+║              ┌────────────────┼────────────────┐                     ║
+║              ▼                ▼                ▼                     ║
+║         code snippet        url            question                  ║
+║         ──────────          ─────          ────────                  ║
+║         saved to        browser opens    Google search               ║
+║         outputs/          instantly        URL opened                ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
